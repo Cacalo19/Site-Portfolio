@@ -301,7 +301,7 @@ section.apresentacao{
   .imagem-portfolio {
     width: 100%;
     max-width: 90vw;
-    height: 200px;
+    height: 12.50rem;
     background-size: cover;
     background-position: center;
   }
