@@ -80,8 +80,7 @@ section.apresentacao{
     
 }
 
-.apresentacao h1,
-.apresentacao h1 span{
+.apresentacao h1{
     font-size: 2.8125rem;
     font-family: cursive;
 }
