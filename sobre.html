@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre</title>
+</head>
+<body>
+
+    <!-- Área onde o header será carregado via JavaScript -->
+    <div id="meu-header"></div>
+
+    <main>
+
+        <!-- Seção sobre mim -->
+        <section class="sobre-mim">
+            <div class="container-sobre">
+                
+                <!-- Foto de perfil -->
+                <div class="foto-perfil">
+                    <img src="Imagens/Untitled design.png" alt="Foto de Carlos">
+                </div>
+
+                <!-- Texto com a descrição pessoal -->
+                <div class="texto-sobre">
+                    <h2>Sobre Mim 🙋‍♂️</h2>
+                    <p>Sou <strong>Carlos Mirapalheta Feitoza</strong>, natural de <strong>Rio Grande – RS</strong>, tenho 33 anos e atualmente curso <strong>Análise e Desenvolvimento de Sistemas</strong>. Sou formado em <strong>Programação de Jogos Digitais</strong>, área na qual aplico lógica e criatividade para desenvolver soluções inovadoras. Minha trajetória acadêmica e profissional é marcada pela busca constante por aprendizado e pela paixão pela tecnologia.<br><br>Sou movido pela curiosidade e pelo desejo contínuo de evoluir. Sempre que encontro algo que ainda não sei, vejo uma oportunidade para crescer. Tenho uma personalidade focada, determinada e resiliente, que me permite superar desafios e buscar soluções inovadoras com autonomia.<br><br>Fora do universo tecnológico, sou entusiasta de videogames🎮, torcedor do <strong>Grêmio</strong>💙 e apreciador de boas séries🎬. No entanto, é na tecnologia que encontro minha maior paixão, sempre fascinado pelas possibilidades de inovação e aprendizado que ela oferece.<br><br>Meu objetivo no mundo da tecnologia é crescer como profissional, adquirindo conhecimentos e habilidades para desenvolver soluções criativas e eficientes. Quero contribuir para projetos que impactem positivamente a vida das pessoas, mantendo-me sempre atualizado e acompanhando as tendências para estar à frente das mudanças.<br><br><em>Fico muito feliz com a sua visita ao meu portfólio. Seja muito bem-vindo(a) ao meu espaço na web!</em></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Janela de contato -->
+    <div class="janela-contato" id="janela-contato">
+        <div class="formulario-container">
+            <span class="fechar-janela" id="fechar-janela">&times;</span>
+            
+            <h2>Entre em Contato</h2>
+
+            <!-- Formulário de contato -->
+            <form action="javascript:void(0)" method="post" class="formulario-contato">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Script que carrega o header -->
+    <script src="header.js"></script>   
+   
+</body>
+</html>

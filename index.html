@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Área onde o header será carregado via JavaScript -->
+    <div id="meu-header"></div>
+
+    <main>
+
+        <!-- Seção de apresentação -->
+        <section class="apresentacao">
+            <div>
+                <!-- Título de boas-vindas -->
+                <h1>Olá! Sou o Carlos Mirapalheta Feitoza👋<br>
+                <span>estudante de Análise e Desenvolvimento de Sistemas.<br>
+                Seja bem-vindo(a) ao meu portfólio!</span></h1>
+                
+                <!-- Links para redes sociais -->
+                <div class="social-links">
+                    <ul>                            
+                        <li><a href="https://www.linkedin.com/in/carlos-mirapalheta-feitoza/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a href="https://github.com/Cacalo19" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    </ul>  
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Janela de contato -->
+    <div class="janela-contato" id="janela-contato">
+        <div class="formulario-container">
+            <span class="fechar-janela" id="fechar-janela">&times;</span>
+
+            <h2>Entre em Contato</h2>
+
+            <!-- Formulário de contato -->
+            <form action="javascript:void(0)" method="post" class="formulario-contato">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Script que carrega o header -->
+    <script src="header.js"></script>   
+    
+</body>
+</html>
+
