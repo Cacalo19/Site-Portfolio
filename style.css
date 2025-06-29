@@ -301,7 +301,9 @@ section.apresentacao{
   .imagem-portfolio {
     width: 100%;
     max-width: 90vw;
-    height: auto;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
   }
 
   .foto-perfil img {
